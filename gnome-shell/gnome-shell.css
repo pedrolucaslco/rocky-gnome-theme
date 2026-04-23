@@ -1,0 +1,13 @@
+/* =============================================================================
+   meu-tema — gnome-shell.css
+   Herda o tema Adwaita padrão e aplica tweaks incrementais em cima.
+   Para adicionar novos componentes, crie um .css em extensions/ e importe aqui.
+   ============================================================================= */
+
+@import url("resource:///org/gnome/shell/theme/gnome-shell.css");
+
+/* --- Extensões customizadas ------------------------------------------------ */
+@import url("extensions/dash-to-dock.css");
+
+/* --- Tweaks globais (opcional, deixe vazio por enquanto) ------------------- */
+/* Exemplo: ajuste de fonte, variáveis de cor, etc. */
