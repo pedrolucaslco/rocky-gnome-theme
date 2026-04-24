@@ -1,2 +1,49 @@
-$background: rgba(28,28,30,1);
-$border: rgba(255,255,255,0.2);
+// COLOR PALLETE
+
+$tw_color_gray_50: #f9fafb;
+$tw_color_gray_100: #f3f4f6;
+$tw_color_gray_200: #e5e7eb;
+$tw_color_gray_300: #d1d5db;
+$tw_color_gray_400: #9ca3af;
+$tw_color_gray_500: #6b7280;
+$tw_color_gray_600: #4b5563;
+$tw_color_gray_700: #374151;
+$tw_color_gray_800: #1f2937;
+$tw_color_gray_900: #111827;
+$tw_color_gray_950: #030712;
+
+$tw_color_zinc_50: #fafafa;
+$tw_color_zinc_100: #f4f4f5;
+$tw_color_zinc_200: #e4e4e7;
+$tw_color_zinc_300: #d4d4d8;
+$tw_color_zinc_400: #a1a1aa;
+$tw_color_zinc_500: #71717a;
+$tw_color_zinc_600: #52525b;
+$tw_color_zinc_700: #3f3f46;
+$tw_color_zinc_800: #27272a;
+$tw_color_zinc_900: #18181b;
+$tw_color_zinc_950: #09090b;
+
+// cc - current color
+$cc_50: $tw_color_zinc_50;
+$cc_100: $tw_color_zinc_100;
+$cc_200: $tw_color_zinc_200;
+$cc_300: $tw_color_zinc_300;
+$cc_400: $tw_color_zinc_400;
+$cc_500: $tw_color_zinc_500;
+$cc_600: $tw_color_zinc_600;
+$cc_700: $tw_color_zinc_700;
+$cc_800: $tw_color_zinc_800;
+$cc_900: $tw_color_zinc_900;
+$cc_950: $tw_color_zinc_950;
+
+// dark mode
+$background: $cc_900;
+$foreground: $cc_100;
+$accent: $cc_800;
+$border: rgba(255, 255, 255, 0.2);
+
+// light mode
+// $background: $cc_100;
+// $foreground: $cc_700;
+// $border: rgba(255, 255, 255, 0.2);
