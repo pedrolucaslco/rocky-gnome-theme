@@ -19,3 +19,43 @@
   font-weight: 600;
   color: $foreground;
 }
+
+#panel {
+  height: 35px;
+}
+
+#panel .workspace-dot {
+  background-color: $foreground;
+}
+
+// .popup-menu-boxpointer,
+// .candidate-popup-boxpointer {
+//   -arrow-background-color: $background;
+//   -arrow-border-color: $border;
+// }
+
+// .popup-menu {
+//   background-color: $background;
+//   color: $foreground;
+//   border: 1px solid $border;
+// }
+
+// .popup-menu-content {
+//   background-color: $background;
+//   color: $foreground;
+//   border: $border;
+// }
+
+// .popup-menu-item {
+//   color: $foreground;
+// }
+
+// .quick-settings {
+//   background-color: $popover;
+//   color: $popover-foreground;
+// }
+
+// .quick-toggle {
+//   background-color: $secondary;
+//   color: $secondary-foreground;
+// }

@@ -4,8 +4,8 @@ set -e
 
 THEME_NAME="rocky-gnome-theme"
 
-echo "=> Compiling theme..."
-sassc -t expanded gnome-shell/gnome-shell.scss gnome-shell/gnome-shell.css
+# echo "=> Compiling theme..."
+# sassc -t expanded gnome-shell/gnome-shell.scss gnome-shell/gnome-shell.css
 
 echo "=> Resetting GNOME theme settings..."
 gsettings reset org.gnome.desktop.interface gtk-theme 2>/dev/null || true

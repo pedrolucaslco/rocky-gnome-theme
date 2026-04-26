@@ -1,4 +1,13 @@
 #dashtodockContainer .dash-background {
-  background-color: $background;
+  background-color: $background !important;
   border: 1px solid $border;
+}
+
+#dash .show-apps .overview-icon,
+#dashtodockContainer .show-apps .overview-icon {
+  color: $foreground;
+}
+
+.dash-item-container .overview-tile .app-grid-running-dot {
+  background-color: $foreground !important;
 }

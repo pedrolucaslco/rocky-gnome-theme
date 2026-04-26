@@ -1,49 +1,61 @@
 // COLOR PALLETE
 
-$tw_color_gray_50: #f9fafb;
-$tw_color_gray_100: #f3f4f6;
-$tw_color_gray_200: #e5e7eb;
-$tw_color_gray_300: #d1d5db;
-$tw_color_gray_400: #9ca3af;
-$tw_color_gray_500: #6b7280;
-$tw_color_gray_600: #4b5563;
-$tw_color_gray_700: #374151;
-$tw_color_gray_800: #1f2937;
-$tw_color_gray_900: #111827;
-$tw_color_gray_950: #030712;
+$tw-color-gray-50: #f9fafb;
+$tw-color-gray-100: #f3f4f6;
+$tw-color-gray-200: #e5e7eb;
+$tw-color-gray-300: #d1d5db;
+$tw-color-gray-400: #9ca3af;
+$tw-color-gray-500: #6b7280;
+$tw-color-gray-600: #4b5563;
+$tw-color-gray-700: #374151;
+$tw-color-gray-800: #1f2937;
+$tw-color-gray-900: #111827;
+$tw-color-gray-950: #030712;
 
-$tw_color_zinc_50: #fafafa;
-$tw_color_zinc_100: #f4f4f5;
-$tw_color_zinc_200: #e4e4e7;
-$tw_color_zinc_300: #d4d4d8;
-$tw_color_zinc_400: #a1a1aa;
-$tw_color_zinc_500: #71717a;
-$tw_color_zinc_600: #52525b;
-$tw_color_zinc_700: #3f3f46;
-$tw_color_zinc_800: #27272a;
-$tw_color_zinc_900: #18181b;
-$tw_color_zinc_950: #09090b;
+$tw-color-zinc-50: #fafafa;
+$tw-color-zinc-100: #f4f4f5;
+$tw-color-zinc-200: #e4e4e7;
+$tw-color-zinc-300: #d4d4d8;
+$tw-color-zinc-400: #a1a1aa;
+$tw-color-zinc-500: #71717a;
+$tw-color-zinc-600: #52525b;
+$tw-color-zinc-700: #3f3f46;
+$tw-color-zinc-800: #27272a;
+$tw-color-zinc-900: #18181b;
+$tw-color-zinc-950: #09090b;
 
 // cc - current color
-$cc_50: $tw_color_zinc_50;
-$cc_100: $tw_color_zinc_100;
-$cc_200: $tw_color_zinc_200;
-$cc_300: $tw_color_zinc_300;
-$cc_400: $tw_color_zinc_400;
-$cc_500: $tw_color_zinc_500;
-$cc_600: $tw_color_zinc_600;
-$cc_700: $tw_color_zinc_700;
-$cc_800: $tw_color_zinc_800;
-$cc_900: $tw_color_zinc_900;
-$cc_950: $tw_color_zinc_950;
+$cc-50: $tw-color-zinc-50;
+$cc-100: $tw-color-zinc-100;
+$cc-200: $tw-color-zinc-200;
+$cc-300: $tw-color-zinc-300;
+$cc-400: $tw-color-zinc-400;
+$cc-500: $tw-color-zinc-500;
+$cc-600: $tw-color-zinc-600;
+$cc-700: $tw-color-zinc-700;
+$cc-800: $tw-color-zinc-800;
+$cc-900: $tw-color-zinc-900;
+$cc-950: $tw-color-zinc-950;
 
 // dark mode
-$background: $cc_900;
-$foreground: $cc_100;
-$accent: $cc_800;
-$border: rgba(255, 255, 255, 0.2);
+$background: $cc-900;
+$foreground: $cc-100;
+
+$secondary: $cc-700;
+$secondary-foreground: $foreground;
+
+$popover: $cc-800;
+$popover-foreground: $foreground;
+
+$accent: $cc-500;
+$border: $cc-700;
 
 // light mode
-// $background: $cc_100;
-// $foreground: $cc_700;
-// $border: rgba(255, 255, 255, 0.2);
+// $background: $cc-100;
+// $foreground: $cc-700;
+
+// $secondary: $cc-200;
+// $secondary-foreground: $foreground;
+
+// $accent: $cc-300;
+// $border: $cc-200;
