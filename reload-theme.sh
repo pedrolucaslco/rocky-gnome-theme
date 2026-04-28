@@ -2,7 +2,7 @@
 
 set -e
 
-THEME_NAME="rocky-gnome-theme"
+THEME_NAME="Rocky"
 
 # echo "=> Compiling theme..."
 # sassc -t expanded gnome-shell/gnome-shell.scss gnome-shell/gnome-shell.css

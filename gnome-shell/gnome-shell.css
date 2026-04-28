@@ -6,7 +6,7 @@
    ============================================================================= */
 @import "resource:///org/gnome/shell/theme/gnome-shell.css";
 #dashtodockContainer .dash-background {
-  background-color: #18181b !important;
+  background-color: #27272a !important;
   border: 1px solid #3f3f46;
 }
 
